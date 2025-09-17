@@ -1,29 +1,13 @@
-An overview of the project and the chosen Frontend Mentor challenge.
+An overview of the project and the chosen Frontend Mentor challenge. 
+Reflection Q&A
 
 Semantic HTML5 markup
 - Flexbox
 - CSS Grid
 
-
-
 # Frontend Mentor - Bento grid solution
  [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj)
  
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - 
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-
 ## Overview
 
 ### The challenge
@@ -46,7 +30,7 @@ Semantic HTML5 markup
 - Tailwindcss
 - Frontend Mentor Challenges
 
-### What I learned, approach and customizations made
+### What I learned, approach, improvements and customizations made
 
 I have learnt to use the css libraries - tailwindcss efficiently. 
 To understand the layout better I manually drew the layout, writing how many columns and grids I need and how it can be aligned. 
@@ -55,19 +39,14 @@ So that approcah helped me even if I change the size or the grid itself. Also I 
 
 ### Continued development
 
-I will be using the frontend mentor in future projects with the Intermediate and Advance challenges. Also I ll be using 
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I will be using the frontend mentor in future projects with the Intermediate and Advance challenges.
 
 ### Useful resources
 Frontend Mentor
 Tailwindcss
+mdn
 
 
 
 
-## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
