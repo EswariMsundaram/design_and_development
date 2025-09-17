@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Bento grid</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!--Flex wrap container-->
+  <div class="flex flex-auto wrap">
+  <!--Grid columns and rows-->
+    <div class="grid grid-cols-6 grid-rows-8 grid-flow-col m-8 gap-4 h-screen">
+      <!--Column 1 class="h-48 w-96 object-scale-down"-->
+      <div class="bg-[#FAEEE2] row-start-1 row-end-5 col-start-1 col-end-2 rounded-lg p-4 content-center ">
+          <p class="text-3xl font-semibold tracking-wide">Create and schedule content</p>
+          <p class="text-3xl italic font-semibold text-[#7552DC]"> quicker</p>
+          <img class="max-w-s h-auto p-4" src="assets/images/illustration-create-post.webp">
+      </div>
+    <!--Colunmn 2  -->
+      <div class="bg-[#7552DC] row-start-1 row-end-4 col-start-2 col-end-4 rounded-lg p-8 text-center">
+          <div class="text-5xl text-white font-semibold"> Social Media <span class="text-[#FFCC6A]">10x</span></div>
+          <div class="text-5xl text-white italic">Faster <span class="not-italic">with AI</span></div>
+          <img class="p-2 justify-self-center"src="assets/images/illustration-five-stars.webp">
+          <p class="text-[#E9CFFF]">Over 4,000 5-star reviews</p>
+      </div>
+        
+      <!--Column 3  -->
+      <div class="bg-[#DCD1FC] row-start-1 row-end-6 col-start-4 col-end-5 rounded-lg pl-6 gap-4">
+          <p class="text-2xl font-semibold p-4"> Schedule to social media.</p>
+          <img class="h-48 w-96 " src="assets/images/illustration-schedule-posts.webp">
+          <p class="text-lg font-medium p-4">Optimize post timings to publish content at the perfect time for your audience.</p>
+      </div>
+
+      <!--Column 4-->
+          <div class="bg-[#F8F8F8] row-start-4 row-end-6 col-start-2 col-end-3 rounded-lg p-8">
+          <img src="assets/images/illustration-multiple-platforms.webp">
+          <p class="text-2xl font-semibold">Manage multiple accounts and platforms.</p>
+      </div>
+      <!--Column 5-->
+      <div class="bg-[#FFCC6A] row-start-4 row-end-6 col-start-3 col-end-4 rounded-lg p-4">
+          <p class="text-xl font-semibold">Maintain a consistent posting schedule.</p>
+          <img class="h-48 w-96 object-scale-down" src="assets/images/illustration-consistent-schedule.webp">
+      </div>
+    <!--Column 6  row-end-6-->
+      <div class="bg-[#FFCC6A] row-start-5 row-end-8 col-start-1 col-end-2 rounded-lg p-4 ">
+          <p class="text-xl font-semibold gap-2">Write your content using AI.</p>
+          <img class="max-w-s h-auto object-contain" src="assets/images/illustration-ai-content.webp">
+      </div>
+      <!--Column 7-->
+      <div class="bg-[#FFFFFF] row-start-6 row-end-9 col-start-2 col-end-3 rounded-lg p-8">
+          <p class="text-4xl"> >56% </p>
+          <p class="text-sm">faster audience growth</p>
+          <img class="max-w-s h-auto" src="assets/images/illustration-audience-growth.webp">
+      </div>
+       <!--Column 8 -->
+      <div class="bg-[#7552DC] row-start-6 row-end-9 col-start-3 col-end-5 rounded-lg p-2 place-self-start flex items-center gap-4">
+        <img class="h-48 w-96 object-scale-down max-w-xs" src="assets/images/illustration-grow-followers.webp">
+        <span class="text-3xl text-white ">Grow followers with non-stop content.</span>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Eswari M</a>.
+  </div>
+</body>
+</html>
